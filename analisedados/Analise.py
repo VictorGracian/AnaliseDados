@@ -54,3 +54,4 @@ def Analises():
 
 def Grafico():
     fig = px.bar(df_analise_segmento, x='Resultado', y='variacao_rs', text='variacao_rs', title='Variação reais por Resultado')
+    fig.show()
